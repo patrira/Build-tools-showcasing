@@ -1,0 +1,46 @@
+// Variables for colors and typography
+$header-bg: #282c34;
+$text-color: #333;
+$footer-bg: $header-bg;
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #e0f7fa;
+  color: $text-color;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: $header-bg;
+  color: white;
+  padding: 1em;
+  text-align: center;
+}
+
+main {
+  padding: 2em;
+  h2 {
+    color: darken($text-color, 10%);
+  }
+  ul {
+    list-style-type: none;
+    padding: 0;
+    li {
+      background-color: lighten($text-color, 40%);
+      padding: 0.5em;
+      margin-bottom: 1em;
+      border-radius: 5px;
+    }
+  }
+}
+
+footer {
+  background-color: $footer-bg;
+  color: white;
+  padding: 1em;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
