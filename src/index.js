@@ -1,9 +1,9 @@
-import './styles/main.scss';  // Import Sass file
+import './styles/main.scss';  
 
-// Function to load build tools from JSON file
+
 async function loadBuildTools() {
   try {
-    const response = await fetch('./data/tools.json');  // Fetch tools.json
+    const response = await fetch('./data/tools.json');  
     const tools = await response.json();
 
     const toolsList = document.getElementById('tools-list');
@@ -18,3 +18,6 @@ async function loadBuildTools() {
 }
 
 document.addEventListener('DOMContentLoaded', loadBuildTools);
+
+
+export { loadBuildTools };

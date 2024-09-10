@@ -11,7 +11,7 @@ module.exports = (env, argv) => {
     output: {
       filename: 'bundle.js',  
       path: path.resolve(__dirname, 'dist'),  
-      clean: true,  d
+      clean: true,  
     },
     module: {
       rules: [
