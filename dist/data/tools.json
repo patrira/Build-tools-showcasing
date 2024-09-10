@@ -1,0 +1,19 @@
+[
+    {
+      "name": "Webpack",
+      "description": "A static module bundler for modern JavaScript applications."
+    },
+    {
+      "name": "Parcel",
+      "description": "Blazing fast, zero configuration web application bundler."
+    },
+    {
+      "name": "Gulp",
+      "description": "A toolkit for automating painful or time-consuming tasks in development."
+    },
+    {
+      "name": "Rollup",
+      "description": "A JavaScript module bundler that compiles small pieces of code into something larger."
+    }
+  ]
+  
