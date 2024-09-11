@@ -38,7 +38,7 @@ npm (comes with Node.js)
 
 npm start: Starts the local development server with hot-reloading and source maps enabled for debugging.
 
-npm run build: Creates an optimized production build, including minified JavaScript and CSS, and generates cache-busting filenames.
+npm run build: Creates an optimized production build, including minified JavaScript and CSS, and generates cache-busting filenames. And this the link to the deployed app on netlify: https://lucky-sprite-0779ec.netlify.app/
 
 npm run lint: Runs ESLint to enforce code quality and checks for syntax or style errors.
 
